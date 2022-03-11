@@ -36,6 +36,7 @@ jobs:
         # Enable diagnostic mode
         env:
           DETECT_DIAGNOSTIC: true
+          NODE_TLS_REJECT_UNAUTHORIZED: 0
         #  DETECT_DIAGNOSTIC_EXTENDED: true
         with:
             scan-mode: INTELLIGENT
